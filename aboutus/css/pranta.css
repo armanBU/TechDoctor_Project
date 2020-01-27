@@ -1,0 +1,126 @@
+.content {
+    padding-top: 107px;
+    margin: 0px;
+    font: normal normal normal 36px/1em 'Century Gothic', sans-serif;
+}
+body{
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #212529;
+text-align: center;
+
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+table {
+    border-collapse: collapse;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+
+}
+.table th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    font-size: 20px;
+}
+.stripe tbody tr:nth-of-type(odd) {
+    background-color: rgba(0,0,0,.05);
+}
+.hover tbody tr:hover:nth-of-type(even) {
+    background-color: rgba(0,0,0,.05);
+
+}
+
+.box {
+    width: 80%;
+    margin-top: 80px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #e9e9e9;
+    border-radius: 2px;
+    padding-bottom: 20px;
+    box-shadow: -7px 4px 16px 0px rgba(0,0,0,.11);
+    background: #f9ebd8b3;
+
+}
+.content img{
+	height:160px;
+	width: 160px;
+	border-radius: 80px;
+}
+.clear{
+    overflow: hidden;
+}
+#prt {
+    color: #818e2f;
+    font-weight: bold;
+    font-size: 42px;
+}
+#prt span{
+	color: red;
+}
+#angrypranta{
+	text-decoration: none;
+	font-weight: bold;
+	color:white;
+	padding-top: 5px;
+
+}
+#angrypranta1 {
+    background: #3F51B5;
+    color: white;
+    padding-top: 12px;
+    height: 59px;
+    width: 190px;
+    border: 1px solid white;
+    border-radius: 9px;
+    font-size: 26px;
+}
+#angrypranta1:hover{
+	border: 2px dotted black;
+}
+.box{
+
+}
+.box h1 {
+    font-size: 39px;
+}
+.box a{
+    text-decoration: none;
+
+}
+.c1 {
+    color: #e35354;
+}
+.c2 {
+    color: #9fb038;
+}
+.d1{}
+.d1 table{}
