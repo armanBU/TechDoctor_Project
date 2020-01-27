@@ -1,0 +1,160 @@
+.box {
+    border: 1px solid #e7cbcb;
+    width: 759px;
+
+    border-radius: 5px;
+    margin-top: 77px;
+    background: #F7EDCF;
+    box-shadow: 8px 8px 10px 0px rgba(0,0,0,.11);
+}
+.login h1{
+    font: normal normal normal 25px/1em 'Century Gothic', sans-serif;
+}
+.box img {
+    height: 153px;
+    padding-top: 35px;
+
+}
+.login{
+
+}
+.login table{
+
+}
+.login table td {
+    padding-bottom: 29px;
+    padding-top: 39px;
+}
+.login input[type="password"] {
+    width: 383px;
+    height: 55px;
+    border: 1px solid mediumblue;
+    border-radius: 34px;
+    font-size: 22px;
+    
+    padding-left: 45px;
+    background: #ffffff6e;
+    color: black;
+}
+
+
+table td{
+    margin-bottom: 40px;
+}
+
+.login input[type="Email"] {
+    width: 383px;
+    height: 55px;
+    border: 1px solid mediumblue;
+    border-radius: 34px;
+    font-size: 22px;
+    padding-left: 45px;
+    background: #ffffff6e;
+    color: black;
+}
+.login input[type = "email"]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+a{
+    text-decoration: none;
+}
+.login input[type = "password"]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+.login input[type = "email"]:hover{
+    border-color: dodgerblue;
+    box-shadow: 0 0 6px 0 dodgerblue;
+}
+.login input[type = "password"]:hover{
+    border-color: dodgerblue;
+    box-shadow: 0 0 6px 0 dodgerblue;
+}
+.btn{
+    padding-top: 20px;
+}
+.btn input[type="submit"] {
+    height: 50px;
+    width: 94px;
+    font-size: 20px;
+    font-weight: bold;
+    background: #D35A5B;
+    color: white;
+    border-radius: 6px;
+}
+.btn input[type="submit"]:hover{
+    background:#D35A5B;
+    box-shadow: 6px 4px 10px 0px rgba(0,0,0,.15);
+
+}
+.reg{padding-top:19px;padding-bottom: 13px;}
+.reg a{
+    text-decoration: none;
+    font-size: 18px;
+
+}
+.reg a:hover{
+    color: red;
+}
+.login table tr td img {
+    padding-top: 0px;
+    height: 57px;
+    width: 57px;
+     
+}
+
+.warning{
+    padding: 15px;
+margin-bottom: 20px;
+border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+border-radius: 4px;
+}
+.danger{
+    color: #a94442;
+background-color: #f2dede;
+border-color: #ebccd1;
+
+}
+.danl {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #d6cbcb;
+    box-shadow: -2px 2px 6px 0px rgba(0,0,0,.11);
+    margin-bottom: 9px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.boxbg{
+    background: url('../img/bg2.jpg');
+    background-size:cover;
+    background-position: center; 
+}
+.newbtn,.loginbtn, .editbtn, .dltbtn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.loginbtn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    border: 1px solid transparent;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 13px;
+    padding-right: 13px;
+    font-size: 23px;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    background: #d35a5b;
+    color: white;
+    margin-top: 9px;
+}
+ .loginbtn:hover{
+    background: #c64d4e;
+    box-shadow: 6px 4px 10px 0px rgba(0,0,0,.15);
+ }

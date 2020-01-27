@@ -1,0 +1,152 @@
+.box {
+    border: 2px solid black;
+    width: 79%;
+    height: 940px;
+    border-radius: 10px;
+    margin-top: 100px;
+    background:#F7EDCF;
+}
+.box:hover{
+    background: #F9EBD8;
+}
+#h12{
+	font: normal normal normal 30px/1em 'Century Gothic', sans-serif;
+    font-weight: bold;
+    padding-bottom: 18px;
+}
+.box img {
+    height: 153px;
+    padding-top: 35px;
+}
+.login {
+    padding-right: 0px;
+}
+.login table {
+    padding-right: 0px;
+}
+.login table td {
+    padding-bottom: 14px;
+    padding-left: 13px;
+    width: 31%;
+}
+
+
+
+
+.btn{
+	padding-top: 25px;
+}
+.btn input[type="submit"] {
+    height: 50px;
+    width: 102px;
+    font-size: 20px;
+    font-weight: bold;
+    background: #D35A5B;
+    color: white;
+    border-radius: 10px;
+}
+.btn input[type="submit"]:hover{
+	border:2px solid black;
+
+}
+.reg{padding-top:30px;}
+.reg a{
+	text-decoration: none;
+	font-size: 20px;
+
+}
+.reg a:hover{
+	color: red;
+}
+
+
+.login input[type = "text"] {
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+    width: 90%;
+    padding-left: 20px;
+}
+.login input[type = "text"]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.login input[type = "email"]{
+    border :2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+    width: 90%;
+    padding-left: 20px;
+}
+.login input[type = "email"]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.login input[type = "password"]{
+    border :2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+    width: 90%;
+    padding-left: 20px;
+}
+.login input[type = "password"]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.login textarea{
+    height: 80px;
+}
+
+.login textarea[type = "text"]{
+    border :2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+    width: 90%;
+    padding-left: 20px;
+}
+.login textarea[type = "text"]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+#rr {
+    text-align: center;
+    padding-left: 251px;
+    font: normal normal normal 18px/1em 'Century Gothic', sans-serif;
+    font-weight: bold;
+}
+.login img {
+    height: 33px;
+    width: 32px;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 10px;
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid red; 
+  color: red; 
+  background: black; 
+  border-radius: 5px; 
+  text-align: left;
+}

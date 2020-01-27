@@ -1,0 +1,149 @@
+.abol img{
+    height: 200px;
+    width:200px;
+}
+body{
+    padding:0px;
+    margin :0px;
+    background:url(../cover/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#logo_img {
+    max-height: 90px;
+    float: left; 
+}
+ #logo_text {
+    font: normal normal normal 36px/1em 'Century Gothic', sans-serif;
+    margin-top: 30px;
+    float: right;
+    color: #e35354;
+}
+#logo_text span {
+    color: #9fb038;
+}
+.namelogo{
+    float: left;
+}
+.head {
+    height: 100px;
+    border-block-end: 1px dotted red;
+    background: #fffafa;
+    border-block-start: 1px dotted white;
+    position: fixed;
+    width: 100%;
+    padding-top: 9px;
+    margin-top: -9px;
+}
+.navbar {
+    font: normal normal normal 36px/1em 'Century Gothic', sans-serif;
+    position: relative;
+    float: right;
+    width:66.667%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+    padding-top: 46px;
+}
+.navbar ul{
+    margin:0px;
+    padding:0px;
+    list-style: none;
+}
+.navbar ul li{
+    float: left;
+    width: 164px;
+    height: 40px;
+    background: black;
+    color:white;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 2px;
+    border-radius: 3px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    background: #f7e7cf;
+    color: #000;
+    display: block;
+
+
+}
+.navbar ul li a:hover{
+    background: #c83233;
+    color: #fff;
+}
+.navbar ul li a:focus {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font: normal normal normal 18px/23px 'Century Gothic', sans-serif;
+    color: #000;
+    background: repeat-x url("cover/images/banner_bg.jpg") 0 -94px ;
+    transition-duration: .5s;
+}
+
+
+.navbar ul li ul li{
+    display:none;
+    margin-top: 1px;
+
+}
+.navbar ul li:hover ul li{
+    display: block;
+}
+
+#active {
+    background: #c83233;
+    color: #fff;
+}
+#blue
+{
+    color:blue;
+}
+.abol a{
+    text-decoration: none;
+
+}
+.division {
+    background: #f9ebd880;
+    width: 80%;
+    border-radius: 4px;
+    box-shadow: 3px 2px 8px 0px rgba(0,0,0,.11);
+    border: 1px solid #d1d1d1;
+}
+.content {
+
+    border: 1px solid #939191;
+    margin-bottom: 37px;
+    width: 64%;
+
+}
+.content:hover{
+    box-shadow: 3px 2px 8px 0px rgba(0,0,0,.15);
+    background: #e9e2d966;
+}
+.content p {
+
+    margin: 0px;
+    padding: 0px;
+    color: #5a5a5a;
+    font-size: 25px;
+    background: #dad5ce;
+    padding: 5px 0px 5px 0px;
+
+}
+.content p:hover{
+    background:#ccc9c5
+}
+.division h2 {
+    font-family: Century Gothic;
+    font-size: 26px;
+    width: 45%;
+    border-bottom: 1px dotted #bcbbbb;
+    padding-bottom: 14px;
+    padding-top: 10px;
+}

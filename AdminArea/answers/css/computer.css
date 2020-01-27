@@ -1,0 +1,42 @@
+.qa{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 5%;
+
+}
+.qa img{}
+#question{
+	color: blue;
+	font-size: 25px;
+	font-family: Century Gothic;
+	font-weight: bold;
+}
+#question span{
+	color: black;
+}
+
+#ans{
+	color: blue;
+	font-size: 20px;
+	font-family: Century Gothic;
+	font-weight: bold;
+}
+#ans span{
+	color: black;
+}
+.headtt{
+	font-family: Century Gothic;
+	font-weight: bold;
+	margin-top:40px;
+}
+#userm{
+	font-family: Century Gothic;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+#bb{
+	width:60%;
+	border-bottom: 1px solid red;
+	margin-left: 20%;
+}

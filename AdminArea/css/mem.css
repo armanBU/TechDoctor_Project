@@ -1,0 +1,100 @@
+.members{
+	margin:0px;
+	padding:0px;
+}
+.members table{margin:0px;
+	padding:0px;
+}
+#fff td {
+    border: 1px solid black;
+    width: 180px;
+    font-size: 17px;
+    font-family: Arial;
+    text-align: center;
+}
+#fff2 td {
+    border: 1px solid black;
+    width: 180px;
+    font-size: 12px;
+    font-family: Arial;
+    text-align: center;
+}
+.mem1 table td{
+	background: #ddd;
+
+}
+.bx1{
+	margin-top: 10px;
+
+}
+table p{
+	font-size: 17px;
+}
+.mem2 table td{
+
+}
+#nbfs{
+	text-decoration: none;
+	color:#1565c0;
+}
+#nbfs:hover{
+	text-decoration: underline;
+	color: #0d47a1;
+}
+#dlt {
+    background: #e0e0e0;
+    color: black;
+    width: 80px;
+    height: 26px;
+    border-radius: 7px;
+	padding-top: 3px;
+    padding-top: 6px;
+    margin-left: 46px;
+}
+#dlt:hover{
+	box-shadow: 0 0 6px 0 #9e9e9e;
+}
+ a{
+	text-decoration: none;
+}
+#nww{
+	width: 120px;
+}
+#btn {
+    background: #e0e0e0;
+    color: black;
+    width: 89px;
+    height: 34px;
+    font-size: 15px;
+    border-radius: 4px;
+    margin-top: 19px;
+}
+#btn:hover {
+    box-shadow: 0 0 6px 0 #9e9e9e;
+}
+.profile {
+    margin-top: 59px;
+}
+#h2{font-family: Century Gothic;}
+.lld{
+    margin-top: 50px;
+}
+.lld td{
+    font-size: 17px;
+
+}
+
+.lld td input[type="text"] {
+    width: 195px;
+    height: 37px;
+    font-size: 16px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border-radius:5px;
+}
+.lld td input[type="text"]:focus{
+    box-shadow: 0 0 6px 0 #9e9e9e;
+    }
+.lld td input[type="text"]:hover{
+    box-shadow: 0 0 6px 0 #9e9e9e;
+}

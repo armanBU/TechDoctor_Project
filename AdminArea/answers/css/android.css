@@ -1,0 +1,238 @@
+.qa {
+
+    width: 94%;
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background: #a5a5a5;
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-size: auto auto;
+    border: 1px solid #dad6d6;
+    border-radius: 3px;
+    min-height: 232px;
+
+}
+.headerh {
+    margin: 0px;
+        margin-bottom: 0px;
+    padding: 0px;
+    background: #e7e1d6;
+    padding: 12px 0px 12px 15px;
+    margin-bottom: 19px;
+}
+.qa:hover{
+ 
+}
+.c {
+    background: #f9ebd866;
+    margin: 40px 267px 0px 267px;
+    padding: 16px 0px 16px 0px;
+    border: 1px solid #cdcccc;
+    border-radius: 2px;
+    box-shadow: -2px 2px 8px 0px rgba(0,0,0,.11);
+}
+.qa{
+    background: transparent;
+	border: 1px solid #cdcccc;
+    border-radius: 2px;
+	}
+.qa h1 {
+    color: #03a9f4;
+    font-size: 22px;
+}
+.qa h2 {
+    color: black;
+    font-size: 18px;
+    font-family: Arial;
+    line-height: 2pc;
+}
+.qa img{}
+#question{
+	color: #0053ff99;;
+	font-size: 18px;
+	font-family: Arial;
+	font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+}
+#question span{
+	color: #1d2129;
+}
+
+#ans {
+    color: #0053ffcc;
+    font-size: 17px;
+    font-family: Arial;
+    line-height: 1.5pc;
+    text-align: justify;
+    margin-right: 53px;
+}
+#ans span {
+    color: #1d2129;
+    font-size: 18px;
+}
+.headtt {
+
+    font-family: Century Gothic;
+    font-weight: bold;
+    border-bottom: 1px solid #fb4f4fb3;
+    width: 50%;
+    padding-bottom: 24px;
+
+}
+#userm{
+	font-family: Century Gothic;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+.qa textarea {
+
+    width: 608px;
+    height: 77px;
+    border: 0px;
+    border-radius: 4px;
+    border: 1px solid #d1d1d1;
+    font-size: 17px;
+    padding-top: 0px;
+    margin-top: 0px;
+    background: #e7e1d633;
+    box-shadow: 3px 3px 6px 0px rgba(0,0,0,.11);
+    border-top: 0px;
+    padding: 5px 3px 3px 12px;
+    color: #333;
+    font-family: arial;
+
+}
+	textarea:hover {
+
+    border: 1px solid #d35a5bb3;
+
+}
+	textarea:focus{
+		border: 1px solid #d35a5bb3;
+	}
+
+#but {
+    color: white;
+    height: 46px;
+    width: 120px;
+    font-weight: bold;
+    background: #d35a5b;
+    font-size: 17px;
+    border: 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 1% 2% 3% 78%;
+}
+#but:hover {
+    box-shadow: 3px 3px 7px 0 #9e9e9e;
+    background: #c55758;
+}
+.but3 {
+    color: white;
+    height: 31px;
+    width: 174px;
+    font-weight: bold;
+    background: #9e9e9e;
+    font-size: 17px;
+    border: 0px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 7px;
+    font-family: Arial;
+}
+.but3:hover{
+	box-shadow: 0 0 7px 0 #9e9e9e;
+}
+#but3a{
+	text-decoration: none;
+	font-size: 19px;
+	color:white;
+}
+.d1 {
+    float: left;
+    height: 40%;
+    border-right: 1px solid #adadad;
+    padding-right: 32px;
+    margin-left: 33px;
+}
+.d2 {
+    margin-left: 201px;
+    padding-left: 32px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.button {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background: #d35a5b;
+    border-radius: 3px;
+    height: 36px;
+    width: 99px;
+    margin-bottom: 20px;
+}
+.button:hover{
+    background: #bc4a4b;;
+    box-shadow: 6px 3px 8px 0px rgba(0,0,0,.11);
+}
+.button p {
+    height: 100%;
+    width: 100%;
+    color: #eaeaea;
+    padding-top: 7px;
+    padding-left: 15px;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+.center {
+  text-align: center;
+}
+
+.pagination {
+  display: inline-block;
+}
+.pagination p {
+    color: white;
+    margin: 0px;
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+
+.active {
+  background-color: #D35A5B;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+.pagination a:hover:not(.active) {background-color: #ddd; box-shadow: 3px 3px 4px 0px rgba(0,0,0,.11);}
+.answer {
+    margin: 0px;
+    padding: 0px;
+    margin: 0px 20px 0px 10px;
+    text-align: justify;
+}
+.answer p {
+    font-family: sans-serif;
+    font-size: 19px;
+    line-height: 30px;
+    text-align: justify;
+    text-align: match-parent;
+}
+.comment {
+
+    margin-left: 276px;
+
+}
