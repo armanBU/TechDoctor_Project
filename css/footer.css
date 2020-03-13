@@ -1,0 +1,63 @@
+.footer{
+	
+	border-top: 1px dotted red;
+	color: black;
+	margin :0px;
+	height:2%;
+	background: #F9EBD8;
+	display: block;
+	font: normal normal normal 16px/1em 'Century Gothic', sans-serif;
+}
+.part1
+{
+	text-align: center;
+	float: left;
+	border-right: 1px dotted red;
+	width: 49.9%;display: block;
+}
+.part2
+{
+	text-align: center;
+	width: 49.9%;
+	float: right;
+}
+.social{
+	padding-top: 10%;
+	padding-left: 4%;
+	
+	
+}
+.social p{
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.social table img {
+    height: 33px;
+    width: 61px;
+
+    padding-top: 12px;
+}
+.social table tr{
+	
+
+}
+.social table td {
+    padding-right: 40px;
+    margin: 10px;
+    border-radius: 44px;
+    
+}
+.part1 td {
+    padding-left: 98px;
+    padding-top: 10px;
+}
+.part2 td {
+    padding-left: 89px;
+    padding-top: 10px;
+}
+#n{
+	font-weight: bold;
+}
+.part1, .part2{
+	padding-top: 30px;
+}

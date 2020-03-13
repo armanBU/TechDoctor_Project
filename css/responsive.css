@@ -1,0 +1,117 @@
+@media screen and (max-width:1499px){
+
+    .navbar ul li {
+     width:153px;
+    }
+    .part1 td {
+    padding-left: 91px;
+    }
+    .social {
+    padding-top: 11%;
+    }
+    
+}
+@media screen and (max-width:1395px){
+
+    .navbar ul li {
+     width:135px;
+    }
+    .part1 td {
+    padding-left: 91px;
+    }
+    .social {
+    padding-top: 11%;
+    }
+    
+}
+@media screen and (max-width:1347px){
+
+    .navbar ul li {
+     width: 125px;
+    }
+    .navbar {
+    width: 63.666667%;
+    padding-left: 35px;
+    padding-right: 0;
+
+}
+.part1 td {
+    padding-left: 76px;
+    }
+    .social {
+    padding-top: 12%;
+    }
+
+}
+
+
+
+@media screen and (max-width:1202px){
+    #logo_img {
+
+    max-height: 75px;
+    float: left;
+    padding-top: 13px;
+
+}
+#logo_text {
+
+    font: normal normal normal 31px/1em 'Century Gothic', sans-serif;
+    padding-top:6px;
+    }
+
+    .navbar ul li {
+     width: 61px;
+    }
+    .navbar {
+    width:55.667%;
+    padding-left: 35px;
+    padding-right: 0;
+
+}
+.navbar ul li {
+
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    font-size: 10px;
+
+}
+input[type="search"] {
+
+    width: 22%;
+
+    }
+
+.part1 td {
+
+    padding-left: 22px;
+    font-size: 11px;
+
+}
+.part2 td {
+
+    padding-left: 36px;
+    padding-top: 10px;
+    font-size: 12px;
+
+}
+.social table img {
+
+    height: 23px;
+    width: 47px;
+    padding-top: 12px;
+
+}
+.footer{
+    height: 214px;
+}
+.part1, .part2 {
+
+    padding-top: 23px;
+
+}
+
+}
+
+

@@ -1,0 +1,18 @@
+.bx2{
+	width: 100%;
+	height: 5660px;
+
+}
+
+@media screen and (max-width:1456px){
+	.bx2 {
+    width: 100%;
+    height: 6044px;
+}
+}
+@media screen and (max-width:1202px){
+	.bx2 {
+    width: 100%;
+    height: 8661px;
+}
+}
